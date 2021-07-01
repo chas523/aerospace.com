@@ -1,0 +1,38 @@
+.testimonials{ 
+    padding: 128px 0 185px 0;
+    &__person { 
+        margin-top: 60px;
+    }
+    &__person-header {
+        display: flex;
+        align-items: center;
+        color: #7f7f82;
+        font-size: 12px;
+        font-weight: 400;
+        .name-job {
+            margin-left: 20px;
+        }
+        span { 
+            color: #22222b;
+            font-size: 22px;
+            font-weight: 400;
+        }
+    }
+    &__person-body {
+        position: relative;
+        color: #7f7f82;
+        font-size: 18px;
+        font-style: italic;
+        line-height: 32px;
+        font-weight: 100;
+        margin-top: 70px;
+        padding-left: 30px;
+    }
+}
+.quate{
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: 28px;
+    z-index: -1;
+}

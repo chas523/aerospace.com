@@ -1,0 +1,31 @@
+.title  { 
+    color: $text;
+    font-size: 36px;
+    font-weight: 400;
+    &_header {
+        font-size: 60px;
+        font-weight: 500;
+       
+        span { 
+            font-weight: 400; 
+        }
+    }
+    &_about {
+        font-weight: 500;
+    }
+    &-services {
+        text-align: center;
+        color: #22222b;
+        font-size: 36px;
+        font-weight: 400;
+    }
+}
+.subtitle { 
+    color: #7f7f82;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    &-services { 
+        margin-top: 23px;
+    }
+}

@@ -1,0 +1,35 @@
+.contact-form{ 
+    padding: 130px 0 130px 0;
+    &__wrapper { 
+        width: 80%;
+        margin: 0 auto; 
+        margin-top: 66px;
+    }
+    &__input {
+        display: block;
+        width: 100%; 
+        border: none; 
+        border-bottom: 1px solid #e1e1e1;
+        padding-bottom: 20px;
+        text-align: center;
+        outline:none;
+        margin-top: 34px;
+        resize: none;
+    }
+    &__btn {
+        width: 100%; 
+        height: 60px;
+        color: #fff; 
+        background-color: #22222b;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-top: 35px;
+        transition: 0.2s all;
+        border: none;
+        &:hover {
+            background-color: grey; 
+            
+        }
+    }
+}

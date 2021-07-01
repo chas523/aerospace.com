@@ -1,0 +1,34 @@
+.reviews{
+    background-color: #faf9fe;
+    padding: 100px 0 100px 0;
+    &__icons{
+        margin: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+        width: 80%; 
+        margin:  0 auto;
+    }
+    &__icon {
+        text-align: center;
+        .number { 
+            display: block;
+            color: #22222b;
+            font-size: 24px;
+            font-weight: 500;
+            margin-top: 30px;
+        }
+    }
+    &_span { 
+        color: #22222b;
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+}
+.bi  {
+  
+    color: white; 
+    font-size: 25px; 
+}

@@ -1,0 +1,219 @@
+@media (max-width: 1400px) {
+
+}
+@media (max-width: 1200px) {
+    .portfolio__wrapper {
+        width: 85%; 
+    }
+    .portfolio__item:nth-child(3) {
+        display: flex;
+        .portfolio__item-wrapper:nth-child(1) {
+            .portfolio__item-zoom {
+                top: 37%;
+                left: 46%;
+                width: 72%;
+                height: 64%; 
+            }
+        }  
+    }
+    .portfolio__item {
+        margin-top: 30px;
+    }
+    .portfolio .work-6 {
+        margin: 0;
+    }
+    .portfolio .work-3 {
+        margin-right:  30px;
+    }
+    .about__wrapper {
+        justify-content: center;
+    }
+    .title_header {
+        font-size: 50px;
+    }
+    .services__grid {
+        grid-template-columns: repeat(2, 1fr); 
+        padding: 0 60px;
+    }
+    .hamburger {
+        display: none;
+    }
+}
+@media (max-width: 991px) {
+    .title_header {
+        font-size: 45px;
+    }
+    .services__grid {
+        padding: 0 20px;
+    }
+    .portfolio__item:nth-child(3) {
+        display: block;
+    }
+    .portfolio .work-3 {
+       margin-right: 0; 
+    }
+    .portfolio__item:nth-child(3) .portfolio__item-wrapper:nth-child(1) .portfolio__item-zoom {
+        top: 50%;
+        left: 50%;
+        width: 80%;
+        height: 80%;
+    }
+    .portfolio .work-6 {
+        margin-top: 30px;
+    }
+    .reviews__icons {
+        width: 100%; 
+    }
+    .footer__wrapper {
+        font-size: 13px;
+    }
+    .footer__items {
+        width: 320px; 
+    }
+    .header__wrapper {
+        display: none;
+    }
+    .blur {
+        transition: 0.2s all;
+        background-color: rgba(0,0,0,0)
+    }
+ 
+    .hamburger {
+        display: block;
+    }
+    .header__navbar{
+        background-color: #faf9fe;
+        width: 40%; 
+        height: 100%;
+        transition: 0.4s all;
+        transform: translateX(-700px);
+        position: fixed;
+        z-index: 70;
+    }
+    .header__navbar_active {
+        transform: translateX(0px);
+        .header__wrapper{
+            display: block;
+        }
+        .header__links{
+            display: block;
+            width: auto;
+            margin-top: 50px 
+        }
+        .header__link {
+            padding: 20px 20px;
+            a  {
+                font-size: 25px;
+                display: block;
+                width: 100%;
+                &:hover {
+                    color: white;
+                  
+                }
+            }
+            a::before{
+                content: none;
+            }
+        }
+    }
+    
+}
+@media (max-width: 768px) {
+    .header__navbar {
+        width: 50%; 
+    }
+    .reviews__icon {
+        width: 200px;
+        margin-top: 40px;
+    }
+    .reviews__icons{
+        flex-wrap: wrap;
+    }
+    .footer__wrapper {
+        display: block;
+    }
+    .rodo  {
+        text-align: center;
+        font-size: 15px;
+    }
+    .footer__items {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 50px;
+        flex-wrap: wrap;
+    }
+    .footer__items .bi {
+        font-size: 25px; 
+    }
+    .footer {
+        height: auto;
+        
+    }
+    .about__desc {
+        margin-left: 0;
+    }
+    .freelance__title {
+        font-size: 30px; 
+    }
+
+}
+@media (max-width: 576px) {
+    .about__images {
+        width: 100%; 
+    }
+    .about__desc {
+        width: 100%; 
+    }
+    .about__skills {
+        width: auto; 
+    }
+    .services__grid {
+        grid-template-columns: repeat(1, 1fr); 
+    }
+    .header__navbar {
+        width: 100%;
+    }
+    .freelance__btn {
+        width: 50%;
+        height: 50px; 
+    }
+}
+@media (max-width: 400px)  {
+    .about__images{
+        img:nth-child(1) {
+            display: none;
+        }
+    }
+    .about__images-text{
+        display: none;
+    }
+    .about__images img {
+        width: auto; 
+        height: auto;
+    }
+    .freelance__title {
+        font-size: 20px;
+    }
+    .title_header {
+        font-size: 30px;
+    }
+    .footer__items {
+        display: none;
+    }
+    .reviews__icons {
+        padding: 0; 
+    }
+    .reviews__icon {
+        width: 100%; 
+    }
+    .portfolio__wrapper {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+    .portfolio img {
+        width: 100%; 
+        height: auto;
+    }
+}

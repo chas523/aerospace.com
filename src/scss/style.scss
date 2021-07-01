@@ -1,0 +1,22 @@
+@import 'plugins/bootstrap-reboot.min';
+@import 'plugins/bootstrap-grid.min'; 
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+@import 'variebles'; 
+* {
+    font-family: 'Roboto', sans-serif;
+}
+@import 'plugins/hamburgers.scss'; 
+@import 'sections/header'; 
+@import 'bloks/title'; 
+@import 'sections/about'; 
+@import 'bloks/line';  
+@import 'sections/services'; 
+@import 'plugins/icon'; 
+@import 'sections/portfolio'; 
+@import 'sections/freelance'; 
+@import 'sections/testimonials'; 
+@import 'bloks/circle'; 
+@import 'bloks/reviews';
+@import 'sections/contact-form'; 
+@import 'sections/footer'; 
+@import 'media/media'; 

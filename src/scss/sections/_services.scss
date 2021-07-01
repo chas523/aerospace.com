@@ -1,0 +1,32 @@
+//height: 886px;
+
+.services {
+    min-height: 886px;
+    background-color: #faf9fe; 
+    padding: 128px 0 130px 0;
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, minmax(220px, auto));
+        grid-auto-rows: minmax(220px, auto);
+        gap: 20px 70px;
+        margin-top: 66px;
+    }
+    &__item {
+        span  {
+            font-size: 41px; 
+        }
+        &-title {
+            margin-top: 34px;
+            font-size: 22px;
+            font-weight: 400;
+        }
+        &-descr {
+            color: #7f7f82;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 26px;
+            margin-top: 25px;
+        }
+    }
+}

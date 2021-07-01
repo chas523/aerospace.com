@@ -1,0 +1,35 @@
+.line { 
+    caret-color: transparent;
+    position: relative;
+    width: 100%; 
+    background-color: #b8b8b8;
+    height: 2px;
+    z-index: 2;
+    &__progress { 
+        position: absolute;
+        z-index: 2;
+        width: 0; 
+        background-color: black; 
+        height: 1px;
+        top: 0;
+        left: 0;
+        &::before { 
+            content: "";
+            position: absolute;
+            top: -4.5px;
+            bottom: -16px;
+            width: 6px;
+            height: 10px;
+            /* border: 2px solid red; */
+            border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+            background: #000;
+        }
+    }
+    &-services {
+        width: 25px;
+        height: 1px; 
+        background-color: black; 
+        margin-top: 32px; ;
+    }
+
+}
